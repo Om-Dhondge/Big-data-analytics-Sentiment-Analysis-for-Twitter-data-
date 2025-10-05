@@ -1,0 +1,5782 @@
+[
+  {
+    "id": "wolframalpha",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "search",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "semantic",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "iphone",
+    "degree": 10,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "failwhale",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "fb",
+    "degree": 95,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "supa",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "nba",
+    "degree": 6,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "nbaplayoffs",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "theagee5k",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "asot400",
+    "degree": 18,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "f1",
+    "degree": 10,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "poken",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "arrivatrainswales",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wolves",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mw2009",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "fail",
+    "degree": 20,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "tweetie",
+    "degree": 6,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sv2009",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "nationofidiots",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "crapvodafonedongle",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "itsgrimupnorth",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "twitterfon",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "amazonfail",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "swineflu",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "yarnporn",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mdsw",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "openmoko",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "pompey",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ff",
+    "degree": 44,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hoppusday",
+    "degree": 5,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "bck5",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ze",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "dddscot",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "teched2009",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "dddsw",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "magicalmoms",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "livescribe",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "riff",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "dating",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bluebox",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "cityrail",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wow",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "iihfhockey",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "tampa",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "nin",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "hawks",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "canucks",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "finals",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "1",
+    "degree": 34,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "adelaide",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "dollhouse",
+    "degree": 4,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "savedollhouse",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "jtv",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "onetvpcdotcom",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "manutd",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "football",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mancity",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "jensonbutton",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ruebensbarrichello",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "openhacklondon",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wheniwerealad",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "20",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "twit",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bubble",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "digitalplanet",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "redeye",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "whyitweet",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "psb",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "fixreplies",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "woofwednesday",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "caps",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "damnheroin",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "tag",
+    "degree": 6,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "eurovision",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "noundiessunday",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "dtm",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wtcc",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "shortstack",
+    "degree": 8,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sharepoint",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ershell",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mcfly",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "delongeday",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "cannondale",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "weshouldfindout",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "25",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ams",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wlan",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "block",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "terminator4",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "feelingsorryformyself",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "fotb",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "expenses",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "photofollows",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "familyforce5",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "irish",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "chuck",
+    "degree": 4,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "chicago",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "unfollow",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "without",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "followfriday",
+    "degree": 135,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "spotify",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "forecastfriday",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mypenis",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "jamiestwitchen",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "saveearl",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "298934",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "giro",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "storm",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "yankees",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "rangers",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "unfollowdiddy",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tangothursdays",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "beer",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "friday",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "melbourne",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "cbd",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mtub",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mini",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "cmon",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "liloven",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "itsucks",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bea09",
+    "degree": 4,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "zenjar",
+    "degree": 6,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "twpp",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "followillfriday",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "tv_addict",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "antiboyle",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "r2imt",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "beatwittyparty",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "myweakness",
+    "degree": 14,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "kettlebells",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "gqmf",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mf09",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "flyinglushes",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "flyinghussies",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "globalwarming",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "randomfact",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "deathwhale",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "leno",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "balticon",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "asylm",
+    "degree": 7,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "firefox",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wordpress",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "thelonelinessofthelongdistanceblogger",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "flashontap",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "flashcampsf",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "followsaturday",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bgt",
+    "degree": 12,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "notetoself",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "spymaster",
+    "degree": 4,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ipv6",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mozilla",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "fennec",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "htc",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "diamond",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "nascar",
+    "degree": 9,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hcn09main",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "hcn09",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ugh",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "chance",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "568",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wordcamp",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "goteambetty",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "rewings",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "penguins",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mmwanted",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "redwings",
+    "degree": 8,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wings",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "pens",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "moose",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "onecar",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "videogamefail",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "imonaboat",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "2",
+    "degree": 12,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "bulldogs",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ontd",
+    "degree": 9,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ohyeswedid",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bcleeds09",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "steaktub",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "susanboyle",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ontd_startrek",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "chesterday",
+    "degree": 5,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "basucks",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "andyhurleyday",
+    "degree": 16,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "pidgin",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "gnutls",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "gtalk",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "jabber",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "xmpp",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "redsox",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "unsuspendhisgoldeneyes",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "stayawake",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "4",
+    "degree": 7,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ithwsop",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wgt",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "markmartin",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "clap",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "failcelebration",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "scrubs",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "cookies",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "imperfectangel",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "confession",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "moviemisquotes",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "lastfm",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "welshmovies",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "phish",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "whereisjoeymcintyre",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "googlewave",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "cfa",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bidwell",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ukweather",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "fnb",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "cissp",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "timor",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "splogin",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "rage",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "gmail",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "newyork",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "e3",
+    "degree": 11,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bacon",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "atlassiansummit",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "musicmondays",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "twitter",
+    "degree": 4,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "deet4life",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "conan",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "uxbookclub",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "turnoff",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "whatsmysection",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sunfeast10k",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "lifemojo",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "air",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "fakejowhiley",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "lazyweb",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "goodsex",
+    "degree": 8,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sla2009",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "repair",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "voiceover",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "somethingsbroken",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sims3",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bones",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "canadian",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "tmituesday",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mcflyforwales",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "cry",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "hhrs",
+    "degree": 7,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hatchlings",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "recession",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "economy",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mcflyinmanila",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ythefuck",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "chickenlegs",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wii",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "3",
+    "degree": 5,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "conass",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "af447",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "damnyourentcheck",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wawbe",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "jonasliveonfb",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "h1n1",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "rip",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "hopeful",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "kseb",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "creditcrunch",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "fuckgfw",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "crcat",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "oripoff",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "weekend",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "youtube",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "nasa",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "climate",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "21",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "springwatch",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "pen",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "whyleahmatters",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "fatfriday",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "javaone",
+    "degree": 4,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "chicagobluesfestival",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "20boysummer",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "petewentzday",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "facebook",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wwe",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "whitesox",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "whenisthelosingstreakgonnaend",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "lost",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wftb",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "s1e11",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "jessicaveronica",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wwdc",
+    "degree": 5,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "haiku",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "aion_liv",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "poker",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "rakeback",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "gp",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "maxout",
+    "degree": 4,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "jamestri",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "apprentice",
+    "degree": 9,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wetstripe",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "rugby",
+    "degree": 4,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "pumas",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "money",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "hateperez",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "smile",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bfd",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "supercon",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sims",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "photog",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "frehleyfriday",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "zombie",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "yatrivia",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "redwongs",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "nhl",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "love",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "tbi",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "epilepsy",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "cerebralpalsy",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sadhomo",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "batman",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "outdoorsport",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "drupal",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sea",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "socialmedia",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "476",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "jolicloud",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "le09",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "followers",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "tony",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "slcpride",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "barrichello",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "theapprentice",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "130",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wtf",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "canada",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "palmpre",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "eu09",
+    "degree": 4,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bnp",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "golakers",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "lakers",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "yorly",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "manflu",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "iremember",
+    "degree": 18,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "trueblood",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "iranelection",
+    "degree": 25,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "tehran",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "pakistan",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "iblamedrewscancer",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "twitpocalypse",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "kolkata",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "india",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "flashcamp_uk",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "twago",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "eos",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "zazzle",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sweatyprofessor",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "primeval",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "torchwood",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "squarespace",
+    "degree": 46,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "fml",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "iglfa2009",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "s",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "rdgtweetup",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mypupsadie",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "goawaymonday",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "tuesdayplz",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "tears",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "twitterfail",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "burntcoffee",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "awesomecouch",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bsb",
+    "degree": 6,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "blech",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "capagiro",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bachelorette",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "django",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "kevinjonas",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "haveyouever",
+    "degree": 8,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "iranians",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "iran9",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "linesvinestryingtimes",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "windows",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "lions",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "stupidkickofftimes",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "skype",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "lvatt",
+    "degree": 9,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "douchebag",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "happybirthdaytome",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "n97",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "fixedbytm2",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ncis",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "cheesywellies",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "140conf",
+    "degree": 4,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "rayv",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "flylady",
+    "degree": 4,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "glastonbury",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "groovy",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "trackle",
+    "degree": 8,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "pweetypweez",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "strohwitwer",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sneakpreview",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "lwd",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "oms",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "svn",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ges",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mlb",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "cubs",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "obx09",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "pbsparents",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "blackberry",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "tworgy",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "iconfess",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "follow",
+    "degree": 8,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "shuttle",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bloggiesta",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bangalore",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "power",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bjp",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "tweetni",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "b0xxy",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "via",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ndc09",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "masterchef",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "spicksandspecks",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sadwithoutinternet",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "salary",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "freeze",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bookshare",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "clothdiaper",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "carnutz",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sytycd",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "imtiredof",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "iphone3",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "nicefirmtitties",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "peterfacinelli",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "virtualbox3",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "fact",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wipeout",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "blublockers",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "selffail",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "supernatural",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "blog",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "help",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "fixit",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "maxissucks",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sonyfail",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "pwnagetool",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "gokeyisadouche",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "29pmusic",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ga",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "threadless",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "phillies",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "jailbreak",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "spoonie",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "thingsthatihate",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "napertweetup",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wayfarer",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "riaa",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "k",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "zongchick",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "inaperfectworld",
+    "degree": 6,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bottomless",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "nanednews",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "secondlife",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "tavernwenchfriday",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "yoono",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "failedkewreunion",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "goodpussy",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "twee60",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "technet",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "exchange",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "productivefriday",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "m20eu",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ac",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "marcabaya",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "maeganaguilar",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "aion",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "glasto",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "a",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "nambu",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "gatheatre",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mountainbike",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "southafrica",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "fairtrade",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "davidstea",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "juneteenth",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "aquarium",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "setanta",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "magento",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "dontyouhate",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "laylael",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "lofnotc",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "theonlinemom",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sarcasm",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "gr88",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "pre",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "gatheater",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "iran0",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mousavi",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "iran",
+    "degree": 5,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "zensursula",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "afi",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "missmurderer",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "thesis",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "georgejeanty",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "btvs",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "comicbooks",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "cfunited",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bwb",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bb10",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "transformers",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "writechat",
+    "degree": 8,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "9",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "svu",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bts",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "aom",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "rwb",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sanfrancisco",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "nc",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "buzz140",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "beejiveim",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "onthelow",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "publicsphere",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "happybdaykrisallen",
+    "degree": 6,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sonar09",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "blindsearch",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "pakcricket",
+    "degree": 3,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "sptechcon",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "neda",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "15",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "beejive",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "timhortons",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "society",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "modelmayhem",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "segway",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "junedon",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mlib09",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "ttt",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "racefail",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "avatar",
+    "degree": 2,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "yegtraffic",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "teamcamp",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "mariedigby",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "gno",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "gifted",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "robotics",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "thingsthathavebadtiming",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "harpersisland",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "heartbroken",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "spyring27",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "zombieninja",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "puma",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "expo2015camp",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "semforum",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "weightwatchers",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "rsg",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "gilad",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "bpos",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "atmedia09",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "spain",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "kerala",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "nhltweetup",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wdw",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "reboot11",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "nahj09",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wastedtime",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "wimp",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "dcth",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "brandminus",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "lbda",
+    "degree": 1,
+    "dominant_sentiment": "negative"
+  },
+  {
+    "id": "nightcard",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "nru",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "wbc2",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "kfanyc",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "optusisntthatbad",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tfc",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "house",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "habs",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "cflsc1",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ivaa09",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hppie",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "heroes",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "suckupsaturday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "passportfail",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "arsenal",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tpb",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "fringe",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "crochet",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "fitness",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "dfvp",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "webpm",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "pmot",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ipl",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "barcamphanoi",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "blazer",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "uprise",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "vegas",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "baseball",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "area51s",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "pussycatisland",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "oneoverzero",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "frankie_valli",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "gnw",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "nbn",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "testing",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tweetdeck",
+    "degree": 4,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "seesmic",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "gadgetshowlive",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "partially",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tickletuesday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "netcf",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "110",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "couchdb",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "picniche",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "movie",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "yyc",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hamthrax",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "stumble",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "multicultural",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "fletcherday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "awaresg",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "broadwaymarket",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mu",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tcot",
+    "degree": 4,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hcb",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "twitteradio",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "twitterradio",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "eahasbro",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "liveatleeds",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "si",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "poynterday",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tibet",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "traveler",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "p2",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "samesexsunday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hcsm",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "labrae",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "johisthemostencouraging",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "camping",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "thinktweet",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "juddday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "idiot",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "wikileaks",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "online",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "payingitforward",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "lichfield",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tweetup",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sambradley",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "swine",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "starwarsday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "starwars",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sigjeans",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "yoga",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "stalkersaturday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "test",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "britains",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "disney",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mikeywayday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "twittertakeover",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "powerball",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sanctuarysunday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "boston",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "harvard",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "twilight",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "chelsea",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "nietopingaanmodus",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "yeg",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "familyfore5",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "disability",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "blogchat",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "rpattz",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "im0509",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "bsapphire",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "banksy",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "coca",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "bemytweep",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "cfobjective",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ifbc",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "paranoid",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "greenday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "3hotwords",
+    "degree": 4,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "followsunday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "roadtrip",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "creditcrunchtv",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "skins",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "stayeduptoodamnlate",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tokiohotel",
+    "degree": 7,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "food",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "dodnn",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "posthunt09",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ie8debate",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "bellybuttons",
+    "degree": 8,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "auscert",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "nokia",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "secretmission",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "scala",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "gae",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "siliconbeach",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "westernma",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "musicmonday",
+    "degree": 17,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "wolfram",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "iheartboobies",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "usages",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "prospective",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "elevensestime",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "24",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "wossybookclub",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "savechuck",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "letterpress",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "lhr",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ha2009",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "futuresummit",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "theydgetapieceofmymind",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "earthquake",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "song_ly",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "saltavalley",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "entrepreneur",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "shtbox",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "megalomaniacmonday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "fakeceleb",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ukprt",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "morrissey",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "5",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "andyclemmensen",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "unfollowfriday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "bradiewebb",
+    "degree": 5,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "shaundiviney",
+    "degree": 4,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sgtweetup",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "metakong",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "jaljeera",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "bradiewebbstack",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "bower",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "jaffacakes",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "media140",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "nala09",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ga2009",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "running",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mishappreciation",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "carpool",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hatteras",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "piccolospoleto",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mamas",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "smbmsp",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "snogmesaturday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "interior",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "winesofchile",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tts09",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "140t",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hobocast",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "3wordsaftersex",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sixx",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "2wkfilm",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ikea",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "modestotweetup",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "imtoolazy",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "dothetwitterdance",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "m",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "haskell",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "liesgirlstell",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "followerfriday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "interesting",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "funny",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sms",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "followsabbath",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "exremefirstaid",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "poke",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "d",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "nobitchassnessfriday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "openspacecode",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "oewf",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "polares",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "esports",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "adhd",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "add",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "asd",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "9829",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "filmgeek",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "directorofphotography",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "jonasnewsongs",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "blackradio",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "music",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tgif",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "nfjs",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "epichilarity",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "twtfm",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sotd",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "jonas",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "justsayin",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "cressferriera",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "howarewe",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "nonsense",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "python",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "kerrie",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "homehomehome",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "testingaspnet",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "fox35",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "followfirday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "e3expo",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "crackberry",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "fnwc",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "startrek",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "zombies",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "barcampbkk3",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hangover",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "botfishing",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mallus",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "shavam",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "archie",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "veronica",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "marsiscoming",
+    "degree": 9,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "12",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "victoriarooms",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tapas",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "webmission",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "vmaj",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "twedding",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "fasttrack",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "wgbiz",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mikeywayness",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ictev09",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mac",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mitm4e",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ballashoughband",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ims09",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "opensource",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "education",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "potential",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "methinks",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "frontorback",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "digg",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "diggshouts",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tweetlord",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "followfridaythx",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "blisstwits",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "supersaturday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tb",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "votediversity",
+    "degree": 8,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "votediversty",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "brettday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sxrquestions",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "friends",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "otaliafics",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "otalia",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "thirdday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "fbmia",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "wearemedia",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "healthychallenge",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "gimmefailwhale",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hairmetal",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "favmoviequote",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "makesalswifewatchstartrek",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "kobe",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "up",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "gratitude",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "today",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "pokemonplatinum",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "acceptance",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "scohrid",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "telss09",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "wedotel",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "geburt",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hugs",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "friend",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mugglespace",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "barcanpnyc4",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "iswearididntlearnthisatall",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "s2istheworst4chaptertextbookever",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "skylarksandsquirrels",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "gfw",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mtvmovieawards",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "doctorwho",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "kcon",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tellmrtweet",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "twtrcon",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "rsc2009",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "disneyjustcuz",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "cgft",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mozmae",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "innerlesbo",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "yumyum",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "shameless",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "pixar",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "cars",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "cgi",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "jemi",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "miguelrequests",
+    "degree": 4,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "eclipse",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "400",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "purplezzzs",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "glamourpussy",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "xm",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "iloveyou",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "reading",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "followmonday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "eswc2009",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "brummusicmonth",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "upfest",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "microsoft",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "bing",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "radioriel",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "momoams",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mullenunbound",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mulleninteractive",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mullenchardonnay",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "wine",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "twitterfamily",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tfsk09",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mileymonday",
+    "degree": 10,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "spo",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "game",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "kermitcard",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "wethekings",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "10yearsofenema",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "international",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "photos",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "gtretweet",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "chuckmemonday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "chuckmeweek",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "blaagers",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sugarshock",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "pwn3d",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "finaltweet",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "xboxe3",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "kaboomed",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "newmoon",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "togsfollow",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "grown",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "rome",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "naples",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "recasting",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "chuckmemondays",
+    "degree": 6,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "chuckeu",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "disqus",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "google",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ngconf09",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sotr09",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "win7",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "votetomfelton",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "fastfollowfive",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "cliqueoftwitter",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "journchat",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "69",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mcrchat",
+    "degree": 3,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "web",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "padres",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "myspace",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "retarded",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sarmy",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "phomission",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tequila",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "cult",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mortgage",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "girlfriend",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "stomozcom",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mallu",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "panvel",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "kde",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "crazyplans",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "netbeans",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "everybody",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "n97kl",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "thankyounkotb",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sfn",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "dhempe",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "harrymcflytosing",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ebio09",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "obama",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "egypt",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mcflyforgermany",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "smclt",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "brazillovesmcfly",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "smx",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "omgmoment",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "litchat",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "orlando",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "jellysg",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "shusitu",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "comingout",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "charitytuesday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "happy",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "metapeople",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "chocohawas",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sprinsteentalktomcfly",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "rc",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "soo",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "origin",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tallyho",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "bullying",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "aptana",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "twitterjail",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "whatwomenwant",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "dabook",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "bb",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "badabing",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "smcswelunches",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "crocsfeelgood02",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "alltimelow",
+    "degree": 17,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "e",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "eminem",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "summerigrl",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "followfridays",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ecommerce",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "annoying",
+    "degree": 6,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "seb",
+    "degree": 31,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hrhappyhour",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "souljaboytellem",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "3feliciadayrumors",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "trucks",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "truckseries",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hugh",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "video",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "100",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "y",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "cricketsweeps",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "jobs",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "111",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "har2009",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "rent",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mw2",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "cutandpaste",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "macruby",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "dongle",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "e71",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "aionbeta",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "princessbride",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "flevo",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "weather",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "wetter",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "berlin",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "song_of_the_paddle",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "internetweek",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "btv",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "spc09",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "1009",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "t20",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "feedly",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "kevin",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "itunes",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "beardface",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "fullservice",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sayyessat",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "foodmatters",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "shakespearesaturday",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "livefrommiami",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "jonasbrothersbackonyoutube",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "afterjavaone",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "silkfair",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sincere",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "friendly",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "smt09",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "goanimate",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hailsatan",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "jonascometopr",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "iomtt",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "wss",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "brainfail",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "twithelp",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "livelocal",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "raceforlife",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "7",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "multscler",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "multiplesclerosis",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mssucks",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "twtvite",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "e2ct",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "fashion",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "p2pgh",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "wisebride",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "heineken",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "shootfest",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "bringbacklife",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hashtags",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "bigbrother",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "euroelection",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "iamking",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tonys",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "noonefuckswithjakksinboston",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "oldportfest",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "magic",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sustagchat",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "drunktweet",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "feliciadayrumors",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "pulseaudio",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "8",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "cnnfail",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "wwf",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "freeplay",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "dl4sg",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sg4dl",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "quotes",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ukhols",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "iowfest",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "mr_bailey",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "positiveposse",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "gameporn",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "minipotatobread",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "amtarot",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "obsessed",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "iranelections",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "morning",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "nice",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "notes",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sgs09",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sfo",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "midomi",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "eclipse35",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "carchat",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "blockbfv",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "win",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "smcrva",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "amsterdam",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "flowers",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "freshbooksworkshop",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "saci",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "hd67",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ecomonday",
+    "degree": 2,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "nomaintenance",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sqaurespace",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "chihuahua",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "gift",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "golf",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "greenvillenc",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "cpanel",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "rails",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "honey",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "imu",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sts",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "dnnvoice",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "dnn",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "byranflurry",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "notoconass",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "tsparkle",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "groovymag",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "linux",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "solaris",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "ftw",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "experiment",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "awesomeness",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "2pac",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "royalfail",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "comic",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "pedant",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "aptw",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sterrenmeisje",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "goodwindup",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "climb",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "t",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sltc09",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "freehouse",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "pixelmytwitter",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "sounddesign",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "formula1",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "nurburgring",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "dawnpatrol",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "bigambition",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "firdayproject",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "militarymon",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "zf",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  },
+  {
+    "id": "php",
+    "degree": 1,
+    "dominant_sentiment": "positive"
+  }
+]

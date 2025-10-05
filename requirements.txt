@@ -1,0 +1,40 @@
+# PySpark Tweet Analytics Pipeline Requirements
+
+# Core Spark and Data Processing
+pyspark==3.4.0
+pandas==2.0.3
+numpy==1.24.3
+
+# Spark NLP (for sentiment analysis)
+# Note: spark-nlp requires specific Java/Spark versions
+# For production, use: spark-nlp==4.4.2
+# For this demo, we use simplified sentiment analysis
+
+# Graph Processing
+# GraphFrames (optional, requires specific Spark version)
+# For local installation: graphframes==0.6
+
+# Dashboard and Visualization
+dash==2.14.1
+dash-cytoscape==0.3.0
+plotly==5.15.0
+dash-bootstrap-components==1.4.1
+
+# Data Formats and I/O
+pyarrow==12.0.1
+openpyxl==3.1.2
+
+# Utilities
+python-dotenv==1.0.0
+click==8.1.6
+
+# Development and Testing
+pytest==7.4.0
+pytest-cov==4.1.0
+
+# Optional: For enhanced text processing
+nltk==3.8.1
+textblob==0.17.1
+
+# System and Logging
+psutil==5.9.5
