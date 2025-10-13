@@ -169,7 +169,7 @@ def main():
     """Main function to run the streaming simulator"""
     parser = argparse.ArgumentParser(description="Tweet Analytics Streaming Simulator")
     parser.add_argument("--data-path", 
-                       default=os.environ.get("DATA_PATH", "/app/training_tweets.csv"),
+                       default=os.environ.get("DATA_PATH", ".\\data\\training.1600000.processed.noemoticon.csv"),
                        help="Path to the full dataset")
     parser.add_argument("--input-dir", 
                        default=os.environ.get("INPUT_DIR", "./stream_input"),

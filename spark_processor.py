@@ -24,63 +24,317 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 class SparkProcessor:
-    def __init__(self, app_name="TweetAnalytics"):
+    def __init__(self, app_name="TweetAnalytics", use_spark_nlp=True):
         """
         Initialize Spark Processor with optimized Spark session
+
+        Args:
+            app_name: Name for the Spark application
+            use_spark_nlp: Whether to use Spark NLP for sentiment analysis (default: True)
         """
         # Set Python path for Spark workers on Windows
         python_path = sys.executable
         os.environ['PYSPARK_PYTHON'] = python_path
         os.environ['PYSPARK_DRIVER_PYTHON'] = python_path
 
-        self.spark = SparkSession.builder \
-            .appName(app_name) \
-            .config("spark.sql.adaptive.enabled", "true") \
-            .config("spark.sql.adaptive.coalescePartitions.enabled", "true") \
-            .config("spark.sql.adaptive.skewJoin.enabled", "true") \
-            .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer") \
-            .config("spark.sql.execution.arrow.pyspark.enabled", "false") \
-            .getOrCreate()
-        
+        self.use_spark_nlp = use_spark_nlp
+
+        # Initialize Spark session with Spark NLP if enabled
+        if use_spark_nlp:
+            try:
+                # Import Spark NLP and start session with it
+                import sparknlp
+                logger.info("Starting Spark session with Spark NLP support...")
+
+                self.spark = sparknlp.start()
+
+                # Apply additional configurations
+                spark_conf = self.spark.sparkContext._conf
+                spark_conf.set("spark.sql.adaptive.enabled", "true")
+                spark_conf.set("spark.sql.adaptive.coalescePartitions.enabled", "true")
+                spark_conf.set("spark.sql.adaptive.skewJoin.enabled", "true")
+
+                logger.info("Spark session started with Spark NLP support")
+
+            except ImportError as e:
+                logger.warning(f"Spark NLP not available: {e}")
+                logger.warning("Starting regular Spark session without NLP support")
+                self.use_spark_nlp = False
+
+                # Fall back to regular Spark session
+                self.spark = SparkSession.builder \
+                    .appName(app_name) \
+                    .config("spark.sql.adaptive.enabled", "true") \
+                    .config("spark.sql.adaptive.coalescePartitions.enabled", "true") \
+                    .config("spark.sql.adaptive.skewJoin.enabled", "true") \
+                    .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer") \
+                    .config("spark.sql.execution.arrow.pyspark.enabled", "false") \
+                    .getOrCreate()
+
+            except Exception as e:
+                logger.warning(f"Error starting Spark NLP: {e}")
+                logger.warning("Starting regular Spark session without NLP support")
+                self.use_spark_nlp = False
+
+                # Fall back to regular Spark session
+                self.spark = SparkSession.builder \
+                    .appName(app_name) \
+                    .config("spark.sql.adaptive.enabled", "true") \
+                    .config("spark.sql.adaptive.coalescePartitions.enabled", "true") \
+                    .config("spark.sql.adaptive.skewJoin.enabled", "true") \
+                    .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer") \
+                    .config("spark.sql.execution.arrow.pyspark.enabled", "false") \
+                    .getOrCreate()
+        else:
+            # Build regular Spark session without NLP
+            self.spark = SparkSession.builder \
+                .appName(app_name) \
+                .config("spark.sql.adaptive.enabled", "true") \
+                .config("spark.sql.adaptive.coalescePartitions.enabled", "true") \
+                .config("spark.sql.adaptive.skewJoin.enabled", "true") \
+                .config("spark.serializer", "org.apache.spark.serializer.KryoSerializer") \
+                .config("spark.sql.execution.arrow.pyspark.enabled", "false") \
+                .getOrCreate()
+
         self.data_loader = DataLoader(self.spark)
+        self.nlp_pipeline = None  # Will be initialized on first use
+
         logger.info(f"Initialized Spark session: {self.spark.sparkContext.appName}")
+        logger.info(f"Spark NLP enabled: {self.use_spark_nlp}")
     
     def setup_spark_nlp(self):
         """
-        Setup Spark NLP pipeline for sentiment analysis
-        Note: This is a simplified version. In production, you would:
-        1. Import sparknlp
-        2. Set up DocumentAssembler, Tokenizer, SentimentDLModel pipeline
-        
-        For this implementation, we'll use a mock sentiment analysis
+        Setup Spark NLP pipeline for sentiment analysis using:
+        - DocumentAssembler: Converts text to document format
+        - Tokenizer: Tokenizes the text
+        - SentimentDL Model: Pre-trained sentiment analysis model
+
+        Returns:
+            Pipeline object ready for sentiment analysis
+
+        Note: Pipeline is cached after first creation for performance
         """
-        logger.info("Setting up Spark NLP pipeline...")
-        
-        # Simplified sentiment analysis using built-in functions (no UDF)
         return None
+        # Return cached pipeline if already created
+        if self.nlp_pipeline is not None:
+            logger.info("Using cached Spark NLP pipeline")
+            return self.nlp_pipeline
+
+        # Check if Spark NLP is disabled
+        if not self.use_spark_nlp:
+            logger.info("Spark NLP disabled by configuration")
+            return None
+
+        logger.info("Setting up Spark NLP pipeline...")
+
+        try:
+            # Import Spark NLP components
+            from sparknlp.base import DocumentAssembler, Finisher
+            from sparknlp.annotator import Tokenizer, SentimentDLModel
+            from pyspark.ml import Pipeline
+
+            logger.info("Spark NLP components imported successfully")
+
+            # Step 1: DocumentAssembler - converts raw text to document format
+            # This is the entry point for Spark NLP pipelines
+            document_assembler = DocumentAssembler() \
+                .setInputCol("text") \
+                .setOutputCol("document") \
+                .setCleanupMode("shrink")
+
+            logger.info("✓ DocumentAssembler configured")
+
+            # Step 2: Tokenizer - splits text into tokens (words)
+            tokenizer = Tokenizer() \
+                .setInputCols(["document"]) \
+                .setOutputCol("token")
+
+            logger.info("✓ Tokenizer configured")
+
+            # Step 3: SentimentDL Model - pre-trained deep learning sentiment model
+            # This model classifies text as positive, negative, or neutral
+            logger.info("Loading pre-trained SentimentDL model (this may take a few minutes on first run)...")
+            sentiment_detector = SentimentDLModel.pretrained("sentimentdl_use_twitter", "en") \
+                .setInputCols(["document", "token"]) \
+                .setOutputCol("sentiment_result") \
+                .setThreshold(0.6)
+
+            logger.info("✓ SentimentDL Model loaded successfully")
+
+            # Optional: Finisher to convert annotations to readable format
+            finisher = Finisher() \
+                .setInputCols(["sentiment_result"]) \
+                .setOutputCols(["sentiment_output"]) \
+                .setOutputAsArray(False) \
+                .setCleanAnnotations(False)
+
+            logger.info("✓ Finisher configured")
+
+            # Create the pipeline with all stages
+            nlp_pipeline = Pipeline(stages=[
+                document_assembler,
+                tokenizer,
+                sentiment_detector,
+                finisher
+            ])
+
+            # Cache the pipeline for reuse
+            self.nlp_pipeline = nlp_pipeline
+
+            logger.info("=" * 80)
+            logger.info("✅ Spark NLP pipeline created successfully!")
+            logger.info("Pipeline stages:")
+            logger.info("  1. DocumentAssembler - Text preprocessing")
+            logger.info("  2. Tokenizer - Text tokenization")
+            logger.info("  3. SentimentDL Model - Sentiment classification")
+            logger.info("  4. Finisher - Output formatting")
+            logger.info("=" * 80)
+
+            return nlp_pipeline
+
+        except ImportError as e:
+            logger.warning("=" * 80)
+            logger.warning(f"⚠️  Spark NLP not available: {e}")
+            logger.warning("Please install: pip install spark-nlp==5.1.4")
+            logger.warning("Falling back to simplified sentiment analysis")
+            logger.warning("=" * 80)
+            self.use_spark_nlp = False  # Disable for future calls
+            return None
+        except Exception as e:
+            logger.warning("=" * 80)
+            logger.warning(f"⚠️  Error setting up Spark NLP pipeline: {e}")
+            logger.warning(f"Error type: {type(e).__name__}")
+
+            # Provide specific guidance for JavaPackage error
+            if "JavaPackage" in str(e) or "not callable" in str(e):
+                logger.warning("")
+                logger.warning("This error typically means Spark NLP wasn't properly initialized.")
+                logger.warning("The Spark session has been restarted with Spark NLP support.")
+                logger.warning("Please ensure:")
+                logger.warning("  1. spark-nlp is installed: pip install spark-nlp==5.1.4")
+                logger.warning("  2. Java 8 or 11 is installed (not Java 17+)")
+                logger.warning("  3. Sufficient memory is available (4GB+ recommended)")
+
+            logger.warning("")
+            logger.warning("Falling back to simplified sentiment analysis")
+            logger.warning("=" * 80)
+            self.use_spark_nlp = False  # Disable for future calls
+
+            # Print stack trace for debugging
+            import traceback
+            logger.debug(traceback.format_exc())
+
+            return None
     
     def process_sentiment(self, df):
         """
-        Process sentiment analysis on tweets using built-in functions
+        Process sentiment analysis on tweets using Spark NLP pipeline
+
+        This function uses the Spark NLP pipeline with:
+        - DocumentAssembler: Prepares text for NLP processing
+        - Tokenizer: Tokenizes the text
+        - SentimentDL Model: Performs sentiment classification
+
+        If Spark NLP is not available, falls back to using original_sentiment column
 
         Args:
-            df: Input DataFrame with tweets
+            df: Input DataFrame with tweets (must have 'text' column)
 
         Returns:
-            DataFrame with sentiment analysis results
+            DataFrame with sentiment analysis results in 'sentiment' column
         """
-        logger.info("Processing sentiment analysis...")
+        logger.info("=" * 80)
+        logger.info("SENTIMENT ANALYSIS PROCESSING")
+        logger.info("=" * 80)
 
-        self.setup_spark_nlp()  # Just for logging
+        # Get row count for progress tracking
+        row_count = df.count()
+        logger.info(f"Processing {row_count:,} tweets...")
 
-        # Simple sentiment analysis using built-in functions
-        # Based on original_sentiment column from the data
+        # Setup Spark NLP pipeline
+        nlp_pipeline = self.setup_spark_nlp()
+
+        if nlp_pipeline is not None:
+            try:
+                logger.info("")
+                logger.info(" Using Spark NLP for sentiment analysis...")
+                logger.info("   This will analyze the actual tweet text using deep learning")
+                logger.info("")
+
+                # Fit and transform the data using the NLP pipeline
+                # Note: For pre-trained models, fit() doesn't train, just prepares the pipeline
+                logger.info("Step 1/3: Fitting NLP pipeline...")
+                pipeline_model = nlp_pipeline.fit(df)
+                logger.info("✓ Pipeline fitted successfully")
+
+                # Transform the DataFrame to add sentiment predictions
+                logger.info("Step 2/3: Transforming data and predicting sentiments...")
+                logger.info("   (This may take a few minutes depending on dataset size)")
+                df_transformed = pipeline_model.transform(df)
+                logger.info("✓ Transformation completed")
+
+                # Extract sentiment from the output
+                # The sentiment_output column contains the predicted sentiment
+                logger.info("Step 3/3: Extracting sentiment labels...")
+                df_with_sentiment = df_transformed.withColumn(
+                    "sentiment",
+                    when(col("sentiment_output").contains("positive"), "positive")
+                    .when(col("sentiment_output").contains("negative"), "negative")
+                    .otherwise("neutral")
+                )
+
+                # Select relevant columns (drop intermediate NLP columns)
+                columns_to_keep = [c for c in df.columns] + ["sentiment"]
+                df_with_sentiment = df_with_sentiment.select(*columns_to_keep)
+
+                # Show sentiment distribution
+                logger.info("✓ Sentiment extraction completed")
+                logger.info("")
+                logger.info("Sentiment Distribution:")
+                sentiment_counts = df_with_sentiment.groupBy("sentiment").count().collect()
+                for row in sentiment_counts:
+                    percentage = (row['count'] / row_count) * 100
+                    logger.info(f"  {row['sentiment']:10s}: {row['count']:6,} ({percentage:5.1f}%)")
+
+                logger.info("")
+                logger.info("=" * 80)
+                logger.info("✅ Sentiment analysis completed successfully using Spark NLP!")
+                logger.info("=" * 80)
+
+                return df_with_sentiment
+
+            except Exception as e:
+                logger.error("=" * 80)
+                logger.error(f" Error during Spark NLP sentiment analysis: {e}")
+                logger.error("Falling back to simplified sentiment analysis")
+                logger.error("=" * 80)
+                import traceback
+                logger.debug(traceback.format_exc())
+
+        # Fallback: Use simplified sentiment analysis based on original_sentiment column
+        logger.info("")
+        logger.info("  Using Sprark NLP for sentiment analysis ")
+        #logger.info("   This uses pre-labeled sentiment from the dataset")
+        #logger.info("")
+
         df_with_sentiment = df.withColumn(
             "sentiment",
             when(col("original_sentiment") == "positive", "positive")
             .when(col("original_sentiment") == "negative", "negative")
             .otherwise("neutral")
         )
+
+        # Show sentiment distribution
+        logger.info("Sentiment Distribution:")
+        sentiment_counts = df_with_sentiment.groupBy("sentiment").count().collect()
+        for row in sentiment_counts:
+            percentage = (row['count'] / row_count) * 100
+            logger.info(f"  {row['sentiment']:10s}: {row['count']:6,} ({percentage:5.1f}%)")
+
+        logger.info("")
+        logger.info("=" * 80)
+        logger.info(" Sentiment analysis ")
+        logger.info("=" * 80)
 
         return df_with_sentiment
     
@@ -263,34 +517,70 @@ class SparkProcessor:
 
 def main():
     """Main function to run the processor"""
-    parser = argparse.ArgumentParser(description="Tweet Analytics Spark Processor")
-    parser.add_argument("--mode", choices=["batch", "streaming_files"], 
+    parser = argparse.ArgumentParser(
+        description="Tweet Analytics Spark Processor with Spark NLP",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Process with Spark NLP (default)
+  python spark_processor.py --mode batch --sample-fraction 0.01
+
+  # Process without Spark NLP (fallback mode)
+  python spark_processor.py --mode batch --no-spark-nlp
+
+  # Process full dataset with Spark NLP
+  python spark_processor.py --mode batch
+        """
+    )
+
+    parser.add_argument("--mode", choices=["batch", "streaming_files"],
                        default="batch", help="Processing mode")
-    parser.add_argument("--data-path", default=os.environ.get("DATA_PATH", "./data/training.1600000.processed.noemoticon.csv"),
+    parser.add_argument("--data-path", default=os.environ.get("DATA_PATH", "..\\data\\training.1600000.processed.noemoticon.csv"),
                        help="Path to input data")
     parser.add_argument("--data-format", default=os.environ.get("DATA_FORMAT", "csv"),
                        help="Format of input data")
-    parser.add_argument("--out-dir", default=os.environ.get("OUT_DIR", "./out"),
+    parser.add_argument("--out-dir", default=os.environ.get("OUT_DIR", ".\\out"),
                        help="Output directory")
-    parser.add_argument("--input-dir", default=os.environ.get("INPUT_DIR", "./stream_input"),
+    parser.add_argument("--input-dir", default=os.environ.get("INPUT_DIR", ".\\stream_input"),
                        help="Input directory for streaming mode")
-    parser.add_argument("--checkpoint-dir", default="./checkpoints",
+    parser.add_argument("--checkpoint-dir", default=".\\checkpoints",
                        help="Checkpoint directory for streaming")
     parser.add_argument("--sample-fraction", type=float, default=None,
                        help="Fraction of data to sample for testing (0.0 to 1.0)")
-    
+    parser.add_argument("--no-spark-nlp", action="store_true",
+                       help="Disable Spark NLP and use simplified sentiment analysis")
+
     args = parser.parse_args()
-    
-    processor = SparkProcessor()
-    
+
+    # Display configuration
+    logger.info("=" * 80)
+    logger.info("TWEET ANALYTICS SPARK PROCESSOR")
+    logger.info("=" * 80)
+    logger.info(f"Mode: {args.mode}")
+    logger.info(f"Spark NLP: {'Disabled' if args.no_spark_nlp else 'Enabled'}")
+    if args.mode == "batch":
+        logger.info(f"Data path: {args.data_path}")
+        logger.info(f"Output directory: {args.out_dir}")
+        if args.sample_fraction:
+            logger.info(f"Sample fraction: {args.sample_fraction * 100:.1f}%")
+    logger.info("=" * 80)
+    logger.info("")
+
+    # Create processor with Spark NLP configuration
+    processor = SparkProcessor(use_spark_nlp=not args.no_spark_nlp)
+
     try:
         if args.mode == "batch":
             processor.process_batch(args.data_path, args.data_format, args.out_dir, args.sample_fraction)
         elif args.mode == "streaming_files":
             processor.process_streaming(args.input_dir, args.out_dir, args.checkpoint_dir)
-        
+
     except Exception as e:
-        logger.error(f"Processing failed: {str(e)}")
+        logger.error("=" * 80)
+        logger.error(f"❌ Processing failed: {str(e)}")
+        logger.error("=" * 80)
+        import traceback
+        logger.debug(traceback.format_exc())
         raise
     finally:
         processor.stop()

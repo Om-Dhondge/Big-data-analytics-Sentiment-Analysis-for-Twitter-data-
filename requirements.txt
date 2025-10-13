@@ -7,8 +7,8 @@ numpy==1.24.3
 
 # Spark NLP (for sentiment analysis)
 # Note: spark-nlp requires specific Java/Spark versions
-# For production, use: spark-nlp==4.4.2
-# For this demo, we use simplified sentiment analysis
+# Compatible with PySpark 3.4.0
+spark-nlp==5.1.4
 
 # Graph Processing
 # GraphFrames (optional, requires specific Spark version)

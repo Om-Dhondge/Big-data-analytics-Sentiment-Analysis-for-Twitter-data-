@@ -169,7 +169,8 @@ if __name__ == "__main__":
     
     try:
         # Test data loading
-        data_path = os.environ.get("DATA_PATH", "/app/training_tweets.csv")
+        #data_path = os.environ.get("DATA_PATH", "/app/training_tweets.csv")
+        data_path = os.environ.get("DATA_PATH", "./data/training.1600000.processed.noemoticon.csv")
         data_format = os.environ.get("DATA_FORMAT", "csv")
         
         loader = DataLoader(spark)
